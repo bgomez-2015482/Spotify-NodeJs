@@ -21,9 +21,9 @@ exports.ensureAuth = (req, res, next) => {
         } catch (ex) {
             return res.status(404).send({
                 message: 'Token no valido'
-            })
+            });
         }
         req.user = payload;
         next();
     }
-}
+};
