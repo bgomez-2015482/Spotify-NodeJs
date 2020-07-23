@@ -7,7 +7,6 @@ var mongoosePaginate = require('mongoose-pagination');
 var Artist = require('../models/artist');
 var Album = require('../models/album');
 var Song = require('../models/song');
-const artist = require('../models/artist');
 
 
 // Listar album de la base de datos, uso de populate para arstista
