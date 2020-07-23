@@ -1,0 +1,1087 @@
+{
+	"id": "b88fe391-d430-f300-8194-b79dbcb63182",
+	"name": "Spotify-NodeJs",
+	"description": "",
+	"order": [
+		"db8f485f-8108-13f3-de11-2a26a3b88a93",
+		"39a58abc-5d59-5ffb-3787-760cbd8f066f",
+		"47fc806d-4c11-6c8e-3820-d7d392a1d1ac",
+		"e03a3ad7-b345-f7b4-539f-12c12304197d",
+		"8280f80a-75a5-372f-7bf7-e60b5e793e73"
+	],
+	"folders": [
+		{
+			"name": "ALBUM",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"order": [
+				"0936fdfa-d300-d5c9-3734-4c8625701b06",
+				"6208b7c8-29c1-3b8a-0bf5-47a4638f7ae2",
+				"c708392d-4ee9-3aec-4ec1-85cdcb77ee28",
+				"d32eb7a3-6ffa-72f8-aa97-cb1d85d6a521",
+				"8aba70ee-82a3-75e5-c743-9fefe28e1c04",
+				"2ffbd5b3-57b2-5a56-7dcb-6976b81ae7cf",
+				"17c88ef8-f819-2ebb-f00a-2cb14d75439a"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7"
+		},
+		{
+			"name": "ARTIST",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"order": [
+				"8a7269c6-80af-df93-923f-8993b1f41f69",
+				"1c957059-b4ea-68ff-68b2-67f1a7ccae2f",
+				"f94ae34e-e973-8991-5418-0c19ab57c521",
+				"eb0a9193-7124-593d-deb9-c3920ebbfd72",
+				"336f0e67-9401-0e99-9002-655ab2768436",
+				"23a19361-be47-0a70-2833-4da9bce939d3",
+				"41f8409f-da0b-7e7e-43ed-a469abc85df2"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "7b3c0fbb-0988-5367-cd53-65c323cccafb"
+		},
+		{
+			"name": "SONG",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"order": [
+				"cca245d8-4a0e-4323-b403-1021f88cd376",
+				"a7510c7b-6c37-c518-852a-6da15965dffb",
+				"bf709174-04ef-a05a-16f1-a272e41e62b1",
+				"87cbbf0e-3e7e-e47b-76ab-df1ec67283d3",
+				"14b557d4-a81f-2fc8-dd5b-401dc99b4393",
+				"8ae137d8-47c2-8998-3aea-3ad18572b87b",
+				"99cd99d9-93c7-86d1-ad64-4d60e2272c07"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "4137b39a-08f8-00ba-d161-4e154f2828df"
+		}
+	],
+	"folders_order": [
+		"94ccf0b1-ad5f-3c17-c0bb-71d4127981f7",
+		"7b3c0fbb-0988-5367-cd53-65c323cccafb",
+		"4137b39a-08f8-00ba-d161-4e154f2828df"
+	],
+	"timestamp": 1595129043847,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0936fdfa-d300-d5c9-3734-4c8625701b06",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/saveAlbum",
+			"folder": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "title",
+					"value": "Best of Guns",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Big Exits One",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "year",
+					"value": "2018",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "image",
+					"value": "null",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "artist",
+					"value": "5f14f561bd655d349c819c94",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595373059881,
+			"name": "SAVE_ALBUM",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "14b557d4-a81f-2fc8-dd5b-401dc99b4393",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/delete-song/5f17a98d2c5e5921c86873e2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "DELETE_SONG",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595459455516,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "4137b39a-08f8-00ba-d161-4e154f2828df"
+		},
+		{
+			"id": "17c88ef8-f819-2ebb-f00a-2cb14d75439a",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3800/api/get-image-album/xYD3_3deyvQh6Fnzd9Pw6B6D.jpg",
+			"folder": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595371994900,
+			"name": "GET_IMAGE_ALBUM",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "1c957059-b4ea-68ff-68b2-67f1a7ccae2f",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE2MGUzOTA0NzRjZTM3NWM4YzRhZTEiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJBbGV4Z2dnIiwiZW1haWwiOiJBbGV4QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImltYWdlIjoiTlVMTCIsImlhdCI6MTU5NTI4MDk3NSwiZXhwIjoxNTk1MzM0OTc1fQ.OOQSGu-cbkHIg27d9gtWdeoW8WBbMqc1yhREt7nGTpU\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE2MGUzOTA0NzRjZTM3NWM4YzRhZTEiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJBbGV4Z2dnIiwiZW1haWwiOiJBbGV4QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImltYWdlIjoiTlVMTCIsImlhdCI6MTU5NTI4MDk3NSwiZXhwIjoxNTk1MzM0OTc1fQ.OOQSGu-cbkHIg27d9gtWdeoW8WBbMqc1yhREt7nGTpU\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/upload-image-artist/5f14f21d6bc77029e4a63ca4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "image",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "UPLOAD_IMAGE_ARTIST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595281945041,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7b3c0fbb-0988-5367-cd53-65c323cccafb"
+		},
+		{
+			"id": "23a19361-be47-0a70-2833-4da9bce939d3",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyMDc5NjcsImV4cCI6MTU5NTI2MTk2N30.iOGCRPGq2cRX860O-6nevTbuoXbGDzPDc-1kcemZhCw\"\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyMDc5NjcsImV4cCI6MTU5NTI2MTk2N30.iOGCRPGq2cRX860O-6nevTbuoXbGDzPDc-1kcemZhCw\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/artist",
+			"folder": "7b3c0fbb-0988-5367-cd53-65c323cccafb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Lil Peep",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Trap",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595282137974,
+			"name": "SAVE_ARTIST",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "2ffbd5b3-57b2-5a56-7dcb-6976b81ae7cf",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/upload-image-album/5f17647b29fdcf2a0863920f",
+			"folder": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "image",
+					"value": "appetite_for_destruction.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595371999301,
+			"name": "UPLOAD_IMAGE_ALBUM",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "336f0e67-9401-0e99-9002-655ab2768436",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyNzcyNjQsImV4cCI6MTU5NTMzMTI2NH0.nZ1l3-4tX0PJaHuVWFVkhDXCNZss-zroKay3AX56PVw\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyNzcyNjQsImV4cCI6MTU5NTMzMTI2NH0.nZ1l3-4tX0PJaHuVWFVkhDXCNZss-zroKay3AX56PVw\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/artists/1",
+			"folder": "7b3c0fbb-0988-5367-cd53-65c323cccafb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595356823182,
+			"name": "PAGINATION_ARTIST",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "39a58abc-5d59-5ffb-3787-760cbd8f066f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "Bgomez",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "3bd5665729",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gettoken",
+					"value": "true",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595371996982,
+			"name": "LOGIN",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "41f8409f-da0b-7e7e-43ed-a469abc85df2",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyMDc5NjcsImV4cCI6MTU5NTI2MTk2N30.iOGCRPGq2cRX860O-6nevTbuoXbGDzPDc-1kcemZhCw\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyMDc5NjcsImV4cCI6MTU5NTI2MTk2N30.iOGCRPGq2cRX860O-6nevTbuoXbGDzPDc-1kcemZhCw\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/artist/5f14f21d6bc77029e4a63ca4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET_ARTIST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595208814633,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7b3c0fbb-0988-5367-cd53-65c323cccafb"
+		},
+		{
+			"id": "47fc806d-4c11-6c8e-3820-d7d392a1d1ac",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQnJ5YW4iLCJ1c2VybmFtZSI6IkJnb21leiIsImVtYWlsIjoiQmdvbWV6QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImltYWdlIjoiTlVMTCIsImlhdCI6MTU5NTE4NDU0NywiZXhwIjoxNTk1MjM4NTQ3fQ.rLVgmf8eNbtY2xT-QM6q-wn1UuENRVca8bldRd6dxW4\"\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQnJ5YW4iLCJ1c2VybmFtZSI6IkJnb21leiIsImVtYWlsIjoiQmdvbWV6QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImltYWdlIjoiTlVMTCIsImlhdCI6MTU5NTE4NDU0NywiZXhwIjoxNTk1MjM4NTQ3fQ.rLVgmf8eNbtY2xT-QM6q-wn1UuENRVca8bldRd6dxW4\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/update-user/5f148f3616f7b01938635aa8",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "name",
+					"value": "Alexander",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "UPDATE USER",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595184632359,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6208b7c8-29c1-3b8a-0bf5-47a4638f7ae2",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/album/5f175f7c4f09031918a450fb",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET_ALBUM",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595367637576,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7"
+		},
+		{
+			"id": "8280f80a-75a5-372f-7bf7-e60b5e793e73",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQnJ5YW4iLCJ1c2VybmFtZSI6IkJnb21leiIsImVtYWlsIjoiQmdvbWV6QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImltYWdlIjoiTlVMTCIsImlhdCI6MTU5NTE4NDU0NywiZXhwIjoxNTk1MjM4NTQ3fQ.rLVgmf8eNbtY2xT-QM6q-wn1UuENRVca8bldRd6dxW4\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQnJ5YW4iLCJ1c2VybmFtZSI6IkJnb21leiIsImVtYWlsIjoiQmdvbWV6QGdtYWlsLmNvbSIsInJvbGUiOiJBRE1JTiIsImltYWdlIjoiTlVMTCIsImlhdCI6MTU5NTE4NDU0NywiZXhwIjoxNTk1MjM4NTQ3fQ.rLVgmf8eNbtY2xT-QM6q-wn1UuENRVca8bldRd6dxW4\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/upload-image-user/5f148f3616f7b01938635aa8",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "image",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "UPLOAD_IMAGE",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595207848036,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "87cbbf0e-3e7e-e47b-76ab-df1ec67283d3",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/update-song/5f17a98d2c5e5921c86873e2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "duration",
+					"value": "2:52",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "UPDATE_SONG",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595456560246,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "4137b39a-08f8-00ba-d161-4e154f2828df"
+		},
+		{
+			"id": "8a7269c6-80af-df93-923f-8993b1f41f69",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3800/api/get-image-artist/2-GVk2ALAkYv4TTrOa9qao9S.jpg",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET_IMAGE_ARTIST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595282135161,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7b3c0fbb-0988-5367-cd53-65c323cccafb"
+		},
+		{
+			"id": "8aba70ee-82a3-75e5-c743-9fefe28e1c04",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/albums",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET_ALL_ARTISTS",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595371528499,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7"
+		},
+		{
+			"id": "8ae137d8-47c2-8998-3aea-3ad18572b87b",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/get-song/cLjnanDBWzR4aNvOnd2R6Kn9.mp3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET_SONG_FILE",
+			"description": "Open in browser",
+			"descriptionFormat": "html",
+			"time": 1595470579930,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "4137b39a-08f8-00ba-d161-4e154f2828df"
+		},
+		{
+			"id": "99cd99d9-93c7-86d1-ad64-4d60e2272c07",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/upload-song/5f18c797213bc822b0542c1f",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "song",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "UPLOAD_FILE_SONG",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595470621532,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "4137b39a-08f8-00ba-d161-4e154f2828df"
+		},
+		{
+			"id": "a7510c7b-6c37-c518-852a-6da15965dffb",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/song/5f18c797213bc822b0542c1f",
+			"folder": "4137b39a-08f8-00ba-d161-4e154f2828df",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595470543569,
+			"name": "GET_SONG",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "bf709174-04ef-a05a-16f1-a272e41e62b1",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/songs",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET_SONG-WHIT-ALBUM-AND-ARTIST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595456395476,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "4137b39a-08f8-00ba-d161-4e154f2828df"
+		},
+		{
+			"id": "c708392d-4ee9-3aec-4ec1-85cdcb77ee28",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/album-delete/5f1742617675c81a0097f387",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "DELETE_ALBUM",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595371472324,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7"
+		},
+		{
+			"id": "cca245d8-4a0e-4323-b403-1021f88cd376",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTU0NTQ2MjcsImV4cCI6MTU5NTUwODYyN30.1Hsv5PIrMhQ5iTG1iwlbhJvMke7KqFGVGeOofGLrias\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/saveSong",
+			"folder": "4137b39a-08f8-00ba-d161-4e154f2828df",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "number",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Wellcome to the Jungle",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "duration",
+					"value": "2:50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "album",
+					"value": "5f17647b29fdcf2a0863920f",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1595470628214,
+			"name": "SAVE_SONG",
+			"description": "",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"responses": []
+		},
+		{
+			"id": "d32eb7a3-6ffa-72f8-aa97-cb1d85d6a521",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImRtaVRHNGNxU0dPSWVNRzRoTnNqaUxnVC5qcGciLCJpYXQiOjE1OTUzNTc1MjYsImV4cCI6MTU5NTQxMTUyNn0.uedYx3BbmXc5xTGeTy6XrDrMN79nJFE6yzxcoHIwxMs\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/update-album/5f175f7c4f09031918a450fb",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "description",
+					"value": "Heavy Metal",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "UPDATE_ALBUM",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595371485533,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "94ccf0b1-ad5f-3c17-c0bb-71d4127981f7"
+		},
+		{
+			"id": "db8f485f-8108-13f3-de11-2a26a3b88a93",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "name",
+					"value": "Bryan",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "Bgomez",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "Bgomez@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "3bd5665729",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "REGISTER",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595173982957,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e03a3ad7-b345-f7b4-539f-12c12304197d",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3800/api/get-image-user/lUsMQBPosEom6LMock-FbzPf.jpg",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET_IMAGE",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595207816663,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "eb0a9193-7124-593d-deb9-c3920ebbfd72",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyNzcyNjQsImV4cCI6MTU5NTMzMTI2NH0.nZ1l3-4tX0PJaHuVWFVkhDXCNZss-zroKay3AX56PVw\"\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyNzcyNjQsImV4cCI6MTU5NTMzMTI2NH0.nZ1l3-4tX0PJaHuVWFVkhDXCNZss-zroKay3AX56PVw\"",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/artist-update/5f14f54cbd655d349c819c92",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": [
+				{
+					"key": "name",
+					"value": "RDCP",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Trap",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "SAVE_ARTIST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595277349425,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7b3c0fbb-0988-5367-cd53-65c323cccafb"
+		},
+		{
+			"id": "f94ae34e-e973-8991-5418-0c19ab57c521",
+			"headers": "Authorization: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyNzcyNjQsImV4cCI6MTU5NTMzMTI2NH0.nZ1l3-4tX0PJaHuVWFVkhDXCNZss-zroKay3AX56PVw\"\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjE0OGYzNjE2ZjdiMDE5Mzg2MzVhYTgiLCJuYW1lIjoiQWxleGFuZGVyIiwidXNlcm5hbWUiOiJCZ29tZXoiLCJlbWFpbCI6IkJnb21lekBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpbWFnZSI6ImxVc01RQlBvc0VvbTZMTW9jay1GYnpQZi5qcGciLCJpYXQiOjE1OTUyNzcyNjQsImV4cCI6MTU5NTMzMTI2NH0.nZ1l3-4tX0PJaHuVWFVkhDXCNZss-zroKay3AX56PVw\"",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3800/api/artist-delete/5f14f54cbd655d349c819c92",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b88fe391-d430-f300-8194-b79dbcb63182",
+			"data": null,
+			"dataMode": "params",
+			"name": "DELETE_ARTIST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1595279978064,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7b3c0fbb-0988-5367-cd53-65c323cccafb"
+		}
+	]
+}
