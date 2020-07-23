@@ -162,7 +162,8 @@ function uploadImage(req, res) {
                     });
                 } else {
                     res.status(200).send({
-                        user: userUpdated
+                        image: file_name,
+                        user: userUpdated //devolver datos
                     });
                 }
             });
