@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+
+<body class="text-center">
+    <form (ngSubmit)="onSubmit()" class="form-signin">
+        <img class="mb-4" src="../../../assets/images/NoteS.jpg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Create your account</h1>
+        <div class="form-group">
+            <label for="inputName">Name</label>
+            <input [(ngModel)]="user.name" name="name" type="text" class="form-control" id="inputName" placeholder="your name">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputUsername">Username</label>
+                <input [(ngModel)]="user.username" name="username" type="text" class="form-control" id="inputUsername" placeholder="username">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input [(ngModel)]="user.password" name="password" name="name" type="password" class="form-control" id="inputPassword4" placeholder="password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail4">Email</label>
+            <input [(ngModel)]="user.email" name="email" type="email" class="form-control" id="inputEmail4" placeholder="email">
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+              I accept the terms and conditions
+          </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+</body>
